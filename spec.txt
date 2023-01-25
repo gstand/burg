@@ -1,0 +1,22 @@
+Write a class called Burger, a class called PubBurger that extends it, and a driver class called BurgerMain that proves the functionality listed below.
+Burger must contain boolean fields called ketchup, lettuce, tomato and cheese. It must also contain an integer field called patties.
+PubBurgers have two additional fields, both Strings, called FancySauce and FancyBun respectively.
+Tomatoes cost $.25, cheese costs $.50, and burgers start at $4.00, with $1 added for each patty after 1, maximum 3.
+If a burger is a pub burger, it should cost $2 more than a burger with exactly the same condiments.
+Two Burgers are equal if their condiments and status as a PubBurger are all the same.
+
+You must:
+
+1. Follow the syntax template for well-encapsulated classes. idek but done ig
+
+2. Include the private fields listed above. done 
+
+3. Have two constructors, one that re-implement the default and another that sets all fields. done?
+
+4. Implement getPrice(), equals(), and toString() done
+
+5. Have accessors and mutators for each field. done
+
+6. Include a driver class called BurgerMain that proves you have completed the work above. done
+
+7. Create and submit a video, 1 minute or less, showing the source code and functionality from above done
