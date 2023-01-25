@@ -1,9 +1,9 @@
 public class Burger {
-    boolean ketchup;
-    boolean lettuce;
-    boolean tomato;
-    boolean cheese;
-    int patties;
+    private boolean ketchup;
+    private boolean lettuce;
+    private boolean tomato;
+    private boolean cheese;
+    private int patties;
 
     public Burger() {
         ketchup = false;
@@ -11,6 +11,13 @@ public class Burger {
         tomato = false;
         cheese = false;
         patties = 1;
+    }
+    public Burger(boolean ketchup, boolean lettuce, boolean tomato, boolean cheese, int patties) {
+        this.ketchup = ketchup;
+        this.lettuce = lettuce;
+        this.tomato = tomato;
+        this.cheese = cheese;
+        this.patties = patties;
     }
     public boolean getKetchup() {
         return ketchup;

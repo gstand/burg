@@ -20,18 +20,10 @@ public class BurgerMain {
         System.out.println("Loaded pub burger: " + pubBurger);
         System.out.println("Price: " + pubBurger.getPrice());
         System.out.println("pubBurger equals burger: " + pubBurger.equals(burger));
-        PubBurger loadedBurger2 = new PubBurger();
-        loadedBurger2.setCheese(true);
-        loadedBurger2.setTomato(true);
-        loadedBurger2.setPatties(3);
-        loadedBurger2.setFancyBun("Sesame");
-        loadedBurger2.setFancySauce("Mustard");
+        PubBurger loadedBurger2 = new PubBurger(false, false, true, true, 3, "Mustard", "Sesame");
         System.out.println("Loaded pub burger 2: " + loadedBurger2);
         System.out.println("pubBurger equals loadedBurger2: " + pubBurger.equals(loadedBurger2));
-        Burger burger2 = new Burger();
-        burger2.setCheese(true);
-        burger2.setTomato(true);
-        burger2.setPatties(3);
+        Burger burger2 = new Burger(false, false, true, true, 3);
         System.out.println("Loaded burger 2: " + burger2);
         System.out.println("burger equals burger2: " + burger.equals(burger2));
 

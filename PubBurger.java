@@ -1,13 +1,17 @@
 public class PubBurger extends Burger {
-    String FancySauce;
-    String FancyBun;
+    private String FancySauce;
+    private String FancyBun;
 
     public PubBurger() {
         super();
         FancySauce = "Mayo";
         FancyBun = "Whole-Grain";
     }
-    // public PubBurger
+    public PubBurger(boolean ketchup, boolean lettuce, boolean tomato, boolean cheese, int patties, String FancySauce, String FancyBun) {
+        super(ketchup, lettuce, tomato, cheese, patties);
+        this.FancySauce = FancySauce;
+        this.FancyBun = FancyBun;
+    }
     public String getFancySauce() {
         return FancySauce;
     }
